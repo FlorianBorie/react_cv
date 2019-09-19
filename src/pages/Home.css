@@ -1,0 +1,18 @@
+.bloc_presentation{
+    width: 80%;
+}
+.arrondie{
+    width: 30%;
+    display: inline-block;
+}
+.arrondie img{
+    margin-top: 5%;
+    border-radius:140px;
+}
+
+.presentation{
+    display: inline-block;
+    position: relative;
+    margin-left: -200px;
+    width: 50%;
+}
