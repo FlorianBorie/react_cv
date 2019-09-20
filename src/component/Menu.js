@@ -7,11 +7,11 @@ import { Navbar, Nav } from 'react-bootstrap';
 function Menu() {
   return (
     <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="/">Mon CV</Navbar.Brand>
         <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="/">A Propos</Nav.Link>
+            <Nav.Link href="/projet">Mes projets</Nav.Link>
+            <Nav.Link href="/experience">Mes expériences </Nav.Link>
         </Nav>
     </Navbar>
     

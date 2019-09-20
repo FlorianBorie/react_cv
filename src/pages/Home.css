@@ -1,18 +1,32 @@
 .bloc_presentation{
-    width: 80%;
+    max-width: 100%;
+    margin-top: 2%;
 }
-.arrondie{
+.img_profil{
     width: 30%;
     display: inline-block;
+    position: relative;
+    margin-left: -40%;
 }
-.arrondie img{
+.img_profil img{
     margin-top: 5%;
-    border-radius:140px;
+    border-radius: 140px;
+    padding-top: 5%;
 }
 
 .presentation{
     display: inline-block;
-    position: relative;
-    margin-left: -200px;
-    width: 50%;
+    position: absolute;
+    text-align: left;
+    width: 40%;
+    margin-top: 7%;
+}
+.btn_lien{
+    width: 20%;
+    margin-left: 50%;
+}
+.img_lien{
+    width: 17px;
+    margin-right: 4px;
+    padding-bottom: 3px;
 }
