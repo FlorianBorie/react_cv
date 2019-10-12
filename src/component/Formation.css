@@ -3,51 +3,27 @@
     margin-bottom: 5%;
 }
 
-.bloc_prepa_ynov {
+.bloc_left_formation{
     background-color: rgba(137, 137, 137, 0.7);
     width: 27%;
     text-align: left;
     padding: 10px;
     margin-left: 20%;
     border-radius: 10%; 
+    border: 2px solid grey;
+    box-shadow: 10px 10px 10px;
 }
 
-.bloc_deuxieme_annee_ynov{
+.bloc_right_formation{
     background-color: rgba(137, 137, 137, 0.7);
     width: 27%;
     text-align: left;
     padding: 10px;
     margin-left: 55%;
     border-radius: 10%; 
+    border: 2px solid grey;
+    box-shadow: 10px 10px 10px;
 }
-
-.bloc_premiere_annee_ynov{
-    background-color: rgba(137, 137, 137, 0.7);
-    width: 27%;
-    text-align: left;
-    padding: 10px;
-    margin-left: 20%;
-    border-radius: 10%; 
-}
-
-.bloc_gms_ceci{
-    background-color: rgba(137, 137, 137, 0.7);
-    width: 27%;
-    text-align: left;
-    padding: 10px;
-    margin-left: 55%;
-    border-radius: 10%; 
-}
-
-.bloc_bac_eiffel{
-    background-color: rgba(137, 137, 137, 0.7);
-    width: 27%;
-    text-align: left;
-    padding: 10px;
-    margin-left: 20%;
-    border-radius: 10%; 
-}
-
 
 .img_calendar_formation {
     width: 20px;

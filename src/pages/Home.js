@@ -8,7 +8,7 @@ export default class Home extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      lien : false,
+     
     }
   }
 
@@ -32,7 +32,7 @@ export default class Home extends React.Component {
             <h2><strong>BORIE Florian</strong></h2>
             <h2><strong>#Dévelopeur</strong></h2>
             <p>Je suis actuellement en troisième année à Ingesup afin de préparer un titre d'expert en 
-              informatique et système d'informatique.
+              informatique et système d'information.
             </p>
             <p>Je me spécialise dans le développement web, après je ne suis pas plus back-end ou front-end j'aime bien les deux 
               puisque j'ai eu l'occasion de pratiquer le framework <strong><u>Symfony</u></strong> pour le back-end et 

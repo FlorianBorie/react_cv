@@ -9,8 +9,7 @@ function Footer() {
   return (
     <div class="app-footer">
         <div>
-            <span>&copy; 2019 Copyright  </span>
-            <Link to="/">Toto</Link>
+            <span>&copy; 2019 Copyright - Florian BORIE </span>
         </div>
         
     </div>
