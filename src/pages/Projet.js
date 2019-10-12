@@ -54,7 +54,7 @@ export default class Projet extends React.Component {
                 </div>
                 <div className="col-md-5 mt-5">
                   <div>
-                    <img className="img_bloc" src={require('../img/symfony.jpg')} style={{width: '86%'}}/>
+                    <img className="img_bloc" src={require('../img/symfony.jpg')} style={{width: '87%'}}/>
                   </div>
                   <div className="projet_symphony_blog">
                     <p className="Title_projet"><img className="img_projet" src={require('../img/symfony.svg')}/> Blog Symfony</p>
@@ -65,6 +65,9 @@ export default class Projet extends React.Component {
                   </div>
                 </div>
                 <div className="col-md-5 mt-5">
+                  <div>
+                    <img className="img_bloc" src={require('../img/nodeJs.jpg')} style={{width: '74%'}}/>
+                  </div>
                   <div className="projet_node_js">
                     <p className="Title_projet"><img className="img_projet" src={require('../img/node.svg')} style={{width:'30px'}}/> Mytwit</p>
                     <p><u>Description </u>: J'ai réalisé une api sur twitter qui me permet de chercher sur mon twitter des concours ou des images,
@@ -75,7 +78,7 @@ export default class Projet extends React.Component {
                 </div>
                 <div className="col-md-5 mt-5">
                   <div>
-                    <img className="img_bloc" src={require('../img/tchanqueeTeam.jpg')} style={{width: '40%'}}/>
+                    <img className="img_bloc" src={require('../img/tchanqueeTeam.jpg')} style={{width: '36%'}}/>
                   </div>
                   <div className="projet_tchanquee_team">
                       <p className="Title_projet"><img className="img_projet" src={require('../img/wordpress.svg')}/> Tchanquée Team</p>
@@ -86,6 +89,9 @@ export default class Projet extends React.Component {
                   </div>                 
                 </div>
                 <div className="col-md-5 mt-5">
+                  <div>
+                    <img className="img_bloc" src={require('../img/reactJs.png')} style={{width: '82%'}}/>
+                  </div>
                   <div className="projet_monopoly_fight">
                       <p className="Title_projet"><img className="img_projet" src={require('../img/react.svg')}/> Monolpoly Fight</p>
                       <p><u>Description </u>: Ce projet ma permit de connaitre la librairie React, mais aussi de pouvoir m'améliorer dans les autres
@@ -95,6 +101,9 @@ export default class Projet extends React.Component {
                   </div>
                 </div>
                 <div className="col-md-5 mt-5">
+                  <div>
+                    <img className="img_bloc" src={require('../img/blogEte.jpg')} style={{width: '85%'}}/>
+                  </div>
                   <div className="projet_blog_ete">
                       <p className="Title_projet"><img className="img_projet" src={require('../img/wordpress.svg')}/> Blog D'été</p>
                       <p><u>Description </u>: J'ai fait ce site, pour parler des différentes expériences que j'ai pu réaliser durant les été 2018 et 2019.</p>
