@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projet.css";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card, Button, Row, Col } from 'react-bootstrap';
 
 export default class Projet extends React.Component {
   constructor(props){
