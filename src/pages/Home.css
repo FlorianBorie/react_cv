@@ -2,19 +2,18 @@
     background-color: rgba(255, 255, 255, 0.9);
     margin-top: 5%;
     margin-left: 14.5%;
-    border: 2px solid grey;
-    box-shadow: 10px 10px 10px;
     padding: 5%;
     width: 70%;
 }
 .img_profil{
     width: 30%;
     display: inline-block;
-    position: relative;
+    margin-right: 2%;
     margin-left: -55%;
 }
 .img_profil h1{
     font-size: 2.3em;
+    width: 100%;
 }
 .img_profil img{
     margin-top: 5%;
@@ -30,12 +29,192 @@
     margin-top: 7%;
 }
 .btn_lien{
-    width: 21%;
-    margin-left: 50%;
-    padding-top: 2%;
+    width: 500px;
+    margin-left: 40%;
+    padding-top: 4%;
 }
 .img_lien{
     width: 17px;
     margin-right: 4px;
     padding-bottom: 3px;
+}
+
+@media screen and (max-width: 1536px) {
+    .img_profil{
+        margin-right: 7%;
+        margin-left: -63%;
+    }
+    .img_profil h1{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .bloc_presentation{
+        background-color: rgba(255, 255, 255, 0.9);
+        margin-top: 5%;
+        margin-left: 4.5%;
+        padding: 5%;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1055px){
+    
+    .bloc_presentation{
+        background-color: rgba(255, 255, 255, 0.9);
+        margin-top: 5%;
+        margin-left: 4.5%;
+        padding: 0%;
+        padding-bottom: 2%;
+        width: 90%;
+    }
+    .presentation{
+        display: block;
+        margin-top: 0%;
+        margin-left: 5%;
+        width: 70%;
+    }
+    .img_profil{
+        margin-right: 7%;
+        margin-left: -5%;
+        margin-bottom: 2%;
+    }
+    .img_profil h1{
+        font-size: 2.3em;
+        width: 150%;
+    }
+    .img_profil img{
+        margin-top: 5%;
+        border-radius: 140px;
+        padding: 0%;
+        margin-left: 7%;
+    }
+    .btn_lien{
+        width: 90%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        padding-top: 25%;
+    }
+    .img_lien{
+        width: 17px;
+        margin-right: 4px;
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 33%;
+        margin-bottom: 0%;
+        padding-top: 30%;
+    }
+    .img_lien{
+        width: 17px;
+        margin-right: 4px;
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .presentation{
+        display: block;
+        margin-top: 0%;
+        margin-left: 5%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 33%;
+        margin-bottom: 0%;
+        padding-top: 35%;
+    }
+}
+@media screen and (max-width: 770px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 33%;
+        margin-bottom: 0%;
+        padding-top: 40%;
+    }
+}
+@media screen and (max-width: 690px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 33%;
+        margin-bottom: 0%;
+        padding-top: 45%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 33%;
+        margin-bottom: 0%;
+        padding-top: 50%;
+    }
+}
+@media screen and (max-width: 605px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 33%;
+        margin-bottom: 0%;
+        padding-top: 60%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 30%;
+        margin-bottom: 0%;
+        padding-top: 60%;
+    }
+}
+@media screen and (max-width: 580px){
+    .img_profil img{
+        margin-top: 5%;
+        border-radius: 140px;
+        margin-left: -15%;
+    }
+}
+@media screen and (max-width: 540px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 30%;
+        margin-bottom: 0%;
+        padding-top: 65%;
+    }
+    .img_profil img{
+        margin-top: 5%;
+        border-radius: 140px;
+        margin-left: -35%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .btn_lien{
+        width: 90%;
+        margin-left: 30%;
+        margin-bottom: 0%;
+        padding-top: 75%;
+    }
+    .img_profil img{
+        margin-top: 5%;
+        border-radius: 140px;
+        margin-left: -30%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .img_profil img{
+        margin-top: 5%;
+        border-radius: 140px;
+        margin-left: -35%;
+    }
 }

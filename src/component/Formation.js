@@ -1,14 +1,13 @@
 import React from "react";
 import "./Formation.css";
 
-import { Row, Col, Card, CardDeck } from 'react-bootstrap';
+import { Row, Col, Card, CardDeck, Container } from 'react-bootstrap';
 
 function Formation() {
   
   return (
     <div className="app-formation">
       <h2 className="titre_formation">Mes Formations</h2>
-      <Row>
       <CardDeck>
         <Card>
           <Card.Img variant="top" src={require('../img/ynov.png')} />
@@ -87,72 +86,6 @@ function Formation() {
           </Card.Footer>
         </Card>
       </CardDeck>
-        {/* <Col>
-        
-          <div>
-            <h3>Master Expert Informatique et Systèmes d'Information à Ingésup Campus Ynov Bordeaux</h3>
-            <p><img className="img_calendar_formation" src={require('../img/calendar.svg')}/>Depuis 2017</p>
-          </div>
-          <div>
-            <p>Durant c'est trois première année j'ai pu découvrir plusieurs languages qui mon permit de choisir dans quel dommaine je
-              voulais m'orienter, c'est pour ça que durant ma troisième année j'ai commencer à travailler plus dans le dommaine du développement
-              Web.
-            </p>
-              <hr/>
-            <p><strong>Langages :</strong> JS, HTML, CSS, PHP, SQL</p>
-            <hr/>
-            <p><strong>Framework :</strong> Symfony</p> 
-            <hr/>
-            <p><strong>librairie :</strong> NodeJS, ReactJS, React Native</p>
-            <hr/>
-            <p><strong>Outil :</strong> GIT</p>
-          </div>
-        </Col>
-        <Col>
-          <div>
-            <h3>Prépa Ynov Campus Opération 1000 apprentis</h3>
-            <p><img className="img_calendar_formation" src={require('../img/calendar.svg')}/>2019</p>
-          </div>
-          <div>
-            <p>Durant cette formation j'ai pu revoir et améliorer les basses que j'ai pu acquérir durant mes deux premières années
-              et j'ai pu en apprendre d'autre.</p>  
-            <hr/>
-            <p><strong>Langages :</strong> JS, HTML, CSS, SQL</p>
-            <hr/>
-            <p><strong>librairie :</strong> ReactJS, NodeJS</p>
-            <hr/>
-            <p><strong>Outil :</strong> GIT</p>
-          </div>
-        </Col>
-        <Col>
-          <div>
-            <h3>Booster class Gestionnaire de maintenance et support informatique (CESI)</h3>
-            <p><img className="img_calendar_formation" src={require('../img/calendar.svg')}/>2016</p>
-          </div>
-          <div>
-            <p>Durant cette formation, j'ai pu me former dans la communication durant un entretien, à la gestion de l'organisation 
-              d'un projet de groupe. Nous avons étais formé dans le domaine du réseaux pour apprendre les bases.</p>
-            <hr/>
-            <p><strong>logiciels :</strong> Cisco packet tracer</p>
-          </div>
-        </Col>
-        <Col>
-          <div>
-            <h3>BAC Sti2D spécialité : <strong>SIN</strong></h3>
-            <p><img className="img_calendar_formation" src={require('../img/calendar.svg')}/>2016</p>
-          </div>
-          <div>
-            <p>Durant mes années de bac j'ai pu savoir réelement que je voulais partir dans l'informatique. Puisque ma spécialité,
-              ma permis de me familiarisé avec les bases comme l'algorithme, le binaire. J'ai pu durant ma dernière année faire un projet
-              avec la plateforme d'arduino qui ma familiarisé avce la programmation. ET aussi savoir s'oganisé pour séparer le projet 
-              pour avancer le plus vite possible et finir le projet.</p>
-            <hr/>
-            <p><strong>Langage :</strong> C</p>
-            <hr/>
-            <p><strong>logiciels :</strong> Arduino, Cisco</p>
-          </div>
-        </Col> */}
-      </Row>
     </div>
   );
 }

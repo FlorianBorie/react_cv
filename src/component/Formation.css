@@ -1,6 +1,7 @@
 .app-formation{
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: 1%;
 }
 
 .titre_formation{
@@ -11,4 +12,8 @@
     width: 20px;
     margin-top: -13px;
     margin-right: 5px;
+}
+
+.card-deck{
+  margin-right: 0px;
 }

@@ -29,6 +29,11 @@ export default class Projet extends React.Component {
   openLinkMonopolyFight(){
     window.open("https://github.com/Borixx33/Monopoly-Fight");
   }
+
+  openLinkYouEvents(){
+    window.open("https://github.com/Guillaume-ANTON/project_b3_you_events/tree/dev");
+  }
+
   openLinkBlocEte(){
     window.open("https://wwwblogostreicoleflorianboriefr.000webhostapp.com/accueil");
   }
@@ -94,7 +99,7 @@ export default class Projet extends React.Component {
                   </div>
                   <div className="projet_monopoly_fight">
                       <p className="Title_projet"><img className="img_projet" src={require('../img/react.svg')}/> Monolpoly Fight</p>
-                      <p><u>Description </u>: Ce projet ma permit de connaitre la librairie React, mais aussi de pouvoir m'améliorer dans les autres
+                      <p><u>Description </u>: Ce projet m'a permi de connaitre la librairie React, mais aussi de pouvoir m'améliorer dans les autres
                       langages que je connaissé déjà qui m'a permis de réalisé se projet en groupe.</p>
                       <p><u>Technologie utilisée </u>: HTML, CSS, Bootstrap, ReactJS, NodeJS, SQL</p>
                       <button className="btn btn-outline-dark" onClick={this.openLinkMonopolyFight}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
@@ -109,6 +114,18 @@ export default class Projet extends React.Component {
                       <p><u>Description </u>: J'ai fait ce site, pour parler des différentes expériences que j'ai pu réaliser durant les été 2018 et 2019.</p>
                       <p><u>Technologie utilisée </u>: HTML, CSS, Wordpress</p>
                       <button className="btn btn-outline-info"  onClick={this.openLinkBlocEte.bind(this)}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/globe-europe.svg')}></img>Site</button>
+                  </div>                 
+                </div>
+                <div className="col-md-5 mt-5">
+                  <div>
+                    <img className="img_bloc" src={require('../img/youEvents.png')} style={{width: '45%'}}/>
+                  </div>
+                  <div className="projet_blog_ete">
+                    <p className="Title_projet"><img className="img_projet" src={require('../img/react.svg')}/> You Events</p>
+                      <p><u>Description </u>: Ce projet m'a permi de connaitre le react native et aussi firebase, j'ai pu aussi approfondir mes connaissances en ReactJS.
+                      Il nous a permi de bien nous organiser en équipe pour essayer d'avancer au maximun le projet. Je l'ai réalisé en troisième année.</p>
+                      <p><u>Technologie utilisée </u>: HTML, CSS, Bootstrap, ReactJS, React Native, Firebase</p>
+                      <button className="btn btn-outline-dark" onClick={this.openLinkYouEvents}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
                   </div>                 
                 </div>
               </div>

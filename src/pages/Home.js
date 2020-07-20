@@ -3,6 +3,7 @@ import "./Home.css";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Formation from "../component/Formation.js"
+import Loisirs from "../component/Loisirs";
 
 export default class Home extends React.Component {
   constructor(props){
@@ -16,7 +17,7 @@ export default class Home extends React.Component {
     window.open("https://www.linkedin.com/in/florian-borie-a7b973172/");
   }
   openLinkGithub(){
-    window.open("https://github.com/Borixx33");
+    window.open("https://github.com/FlorianBorie");
   }
   
   render(){
@@ -31,8 +32,8 @@ export default class Home extends React.Component {
           <div className="presentation">
             <h2><strong>BORIE Florian</strong></h2>
             <h2><strong>#Dévelopeur</strong></h2>
-            <p>Je suis actuellement en troisième année à Ingesup afin de préparer un titre d'expert en 
-              informatique et système d'information.
+            <p>Je suis actuellement en troisième année à Ingesup afin de préparer <strong>un titre d'expert en 
+              informatique et système d'information</strong>.
             </p>
             <p>Je me spécialise dans le développement web, après je ne suis pas plus back-end ou front-end j'aime bien les deux 
               puisque j'ai eu l'occasion de pratiquer le framework <strong><u>Symfony</u></strong> pour le back-end et 
@@ -45,6 +46,7 @@ export default class Home extends React.Component {
           </div>
         </div>
         <Formation/>
+        <Loisirs/>
       </div>
     );
   }
