@@ -22,6 +22,7 @@ export default class Home extends React.Component {
   openLinkGitlab(){
     window.open("https://gitlab.com/users/FloBorie/projects");
   }
+
   render(){
     
     return ( 
@@ -34,12 +35,12 @@ export default class Home extends React.Component {
           <div className="presentation">
             <h2><strong>BORIE Florian</strong></h2>
             <h2><strong>#Dévelopeur</strong></h2>
-            <p>Je suis actuellement en troisième année à Ingesup afin de préparer <strong>un titre d'expert en 
-              informatique et système d'information</strong>.
+            <p>Je suis actuellement en quatrième année à <a style={{textDecoration:"none", color:"black"}} href="https://www.ynov.com" target="_blank"><strong>Ynov information</strong></a> afin de préparer <u>un titre d'expert en 
+              informatique et système d'information</u>.
             </p>
             <p>Je me spécialise dans le développement web, après je ne suis pas plus back-end ou front-end j'aime bien les deux 
               puisque j'ai eu l'occasion de pratiquer le framework <strong><u>Symfony</u></strong> pour le back-end et 
-              la librairie <strong><u>ReactJS</u></strong> pour le front-end. 
+              la librairie <strong><u>ReactJS</u></strong> et je pratique <strong><u>Angular</u></strong> en société pour le front-end. 
             </p>
           </div>
           <div className="btn_lien">

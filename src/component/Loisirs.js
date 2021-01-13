@@ -32,7 +32,7 @@ function Loisirs() {
 
         <Card>
           <Card.Body>
-            <Card.Title>Musculation</Card.Title>
+            <Card.Title>Musculation / CrossFit</Card.Title>
           </Card.Body>
           <Card.Img variant="top" src={require('../img/musculation.jpg')} />
         </Card>
