@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div class="app-footer">
         <div>
-            <span>&copy; 2020 Copyright - Florian BORIE </span>
+            <span>&copy; 2021 Copyright - Florian BORIE </span>
         </div>
         
     </div>

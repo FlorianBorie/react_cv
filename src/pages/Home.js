@@ -19,7 +19,9 @@ export default class Home extends React.Component {
   openLinkGithub(){
     window.open("https://github.com/FlorianBorie");
   }
-  
+  openLinkGitlab(){
+    window.open("https://gitlab.com/users/FloBorie/projects");
+  }
   render(){
     
     return ( 
@@ -43,6 +45,7 @@ export default class Home extends React.Component {
           <div className="btn_lien">
             <button className="btn btn-outline-primary" onClick={this.openLinkLinkedin.bind(this)}><img className="img_lien" src={require('../img/linkedin.png')}></img>Linkedin</button>
             <button className="btn btn-outline-dark" style={{marginLeft:'5%'}} onClick={this.openLinkGithub.bind(this)}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
+            <button className="btn btn-outline-danger" style={{marginLeft:'5%'}} onClick={this.openLinkGitlab.bind(this)}><img className="img_lien" style={{width: '20px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/gitlab.png')}></img>Gitlab</button>
           </div>
         </div>
         <Formation/>

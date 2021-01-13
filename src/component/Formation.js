@@ -14,8 +14,8 @@ function Formation() {
           <Card.Body>
             <Card.Title>Master Expert Informatique et Systèmes d'Information à Ingésup Campus Ynov Bordeaux</Card.Title>
             <Card.Text>
-            <p>Durant c'est trois première année j'ai pu découvrir plusieurs languages qui mon permit de choisir dans quel dommaine je
-              voulais m'orienter, c'est pour ça que durant ma troisième année j'ai commencer à travailler plus dans le dommaine du développement
+            <p>Durant c'est quatre année j'ai pu découvrir plusieurs languages qui mon permit de choisir dans quel dommaine je
+              voulais m'orienter, c'est pour ça que durant ma troisième année j'ai commencé à travailler dans le dommaine du développement
               Web.
             </p>
               <hr/>

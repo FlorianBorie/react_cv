@@ -13,42 +13,42 @@ function Loisirs() {
           <Card.Body>
             <Card.Title>Rugby</Card.Title>
           </Card.Body>
-          <Card.Img variant="top" src={require('../img/ynov.png')} />
+          <Card.Img variant="top" src={require('../img/rugby.jpg')} />
         </Card>
 
         <Card>
           <Card.Body>
             <Card.Title>Pelote Basque</Card.Title>
           </Card.Body>
-          <Card.Img variant="top" src={require('../img/ynov.png')}/>
+          <Card.Img variant="top" src={require('../img/pelote_basque.jpg')}/>
         </Card>
 
         <Card>
           <Card.Body>
             <Card.Title>Plongée sous-marine</Card.Title>
           </Card.Body>
-          <Card.Img variant="top" src={require('../img/CESI_Alternance.png')} />
+          <Card.Img variant="top" src={require('../img/plongee_sous_marine.jpg')} />
         </Card>
 
         <Card>
           <Card.Body>
             <Card.Title>Musculation</Card.Title>
           </Card.Body>
-          <Card.Img variant="top" src={require('../img/lycee_gustave_eiffel.jpg')} />
+          <Card.Img variant="top" src={require('../img/musculation.jpg')} />
         </Card>
 
         <Card>
           <Card.Body>
             <Card.Title>Voyage</Card.Title>
           </Card.Body>
-          <Card.Img variant="top" src={require('../img/lycee_gustave_eiffel.jpg')} />
+          <Card.Img variant="top" src={require('../img/voyage.jpg')} />
         </Card>
 
         <Card>
           <Card.Body>
             <Card.Title>Informatique</Card.Title>
           </Card.Body>
-          <Card.Img variant="top" src={require('../img/lycee_gustave_eiffel.jpg')} />
+          <Card.Img variant="top" src={require('../img/informatique.jpg')} />
         </Card>
       </CardDeck>
     </div>
