@@ -1,3 +1,6 @@
+## Ce CV permet de mieux me connaitre 
+- Sur le lien suivant vous prouverez la maquette de mon projet: `https://www.figma.com/file/WOnbW644bMn83zEXgPzFRj/mon-CV`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
