@@ -39,6 +39,10 @@
     padding-bottom: 3px;
 }
 
+.presentation h3{
+    font-size: 22px;
+}
+
 @media screen and (max-width: 1536px) {
     .img_profil{
         margin-right: 7%;

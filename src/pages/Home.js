@@ -34,8 +34,8 @@ export default class Home extends React.Component {
           </div>
           <div className="presentation">
             <h2><strong>BORIE Florian</strong></h2>
-            <h2><strong>#Dévelopeur</strong></h2>
-            <p>Je suis actuellement en quatrième année à <a style={{textDecoration:"none", color:"black"}} href="https://www.ynov.com" target="_blank"><strong>Ynov information</strong></a> afin de préparer <u>un titre d'expert en 
+            <h3><strong>#Dévelopeur</strong></h3>
+            <p>Je suis actuellement en cinquième année à <a style={{textDecoration:"none", color:"black"}} href="https://www.ynov.com" target="_blank"><strong>Ynov information</strong></a> afin de préparer <u>un titre d'expert en 
               informatique et système d'information</u>.
             </p>
             <p>Je me spécialise dans le développement web, après je ne suis pas plus back-end ou front-end j'aime bien les deux 

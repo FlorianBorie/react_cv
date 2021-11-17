@@ -11,7 +11,7 @@ function Menu() {
         <Nav className="mr-auto">
             <Nav.Link href="/projet">Mes projets</Nav.Link>
             <Nav.Link href="/experience">Mes expériences</Nav.Link>
-            <Nav.Link href="http://wwwblogostreicoleflorianboriefr.000webhostapp.com/accueil" target="_blank">Mon blogs</Nav.Link>
+            <Nav.Link href="http://wwwblogostreicoleflorianboriefr.000webhostapp.com/accueil" target="_blank">Mon blog</Nav.Link>
         </Nav>
     </Navbar>
     
