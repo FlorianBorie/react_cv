@@ -57,6 +57,7 @@ export default class Projet extends React.Component {
                     <button className="btn btn-outline-dark"  onClick={this.openLinkSymphonyPilotari}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
                   </div>
                 </div>
+
                 <div className="col-md-5 mt-5">
                   <div>
                     <img className="img_bloc" src={require('../img/symfony.jpg')} style={{width: '87%'}}/>
@@ -69,6 +70,7 @@ export default class Projet extends React.Component {
                     <button className="btn btn-outline-dark"  onClick={this.openLinkSymphonyBlog}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
                   </div>
                 </div>
+
                 <div className="col-md-5 mt-5">
                   <div>
                     <img className="img_bloc" src={require('../img/nodeJs.jpg')} style={{width: '74%'}}/>
@@ -81,6 +83,7 @@ export default class Projet extends React.Component {
                     <button className="btn btn-outline-dark" onClick={this.openLinkNodeJs}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
                   </div>
                 </div>
+
                 <div className="col-md-5 mt-5">
                   <div>
                     <img className="img_bloc" src={require('../img/tchanqueeTeam.jpg')} style={{width: '36%'}}/>
@@ -93,6 +96,7 @@ export default class Projet extends React.Component {
                       <button className="btn btn-outline-info"  onClick={this.openLinkTchanqueeTeam.bind(this)}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/globe-europe.svg')}></img>Site</button>
                   </div>                 
                 </div>
+
                 <div className="col-md-5 mt-5">
                   <div>
                     <img className="img_bloc" src={require('../img/reactJs.png')} style={{width: '82%'}}/>
@@ -105,6 +109,7 @@ export default class Projet extends React.Component {
                       <button className="btn btn-outline-dark" onClick={this.openLinkMonopolyFight}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
                   </div>
                 </div>
+
                 <div className="col-md-5 mt-5">
                   <div>
                     <img className="img_bloc" src={require('../img/blogEte.jpg')} style={{width: '85%'}}/>
@@ -116,6 +121,7 @@ export default class Projet extends React.Component {
                       <button className="btn btn-outline-info"  onClick={this.openLinkBlocEte.bind(this)}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/globe-europe.svg')}></img>Site</button>
                   </div>                 
                 </div>
+
                 <div className="col-md-5 mt-5">
                   <div>
                     <img className="img_bloc" src={require('../img/youEvents.png')} style={{width: '45%'}}/>
@@ -128,6 +134,7 @@ export default class Projet extends React.Component {
                       <button className="btn btn-outline-dark" onClick={this.openLinkYouEvents}><img className="img_lien" style={{width: '17px', marginRight: '4px', paddingBottom: '3px'}} src={require('../img/github.svg')}></img>Github</button>
                   </div>                 
                 </div>
+                
               </div>
           </div>
       </div>
